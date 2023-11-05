@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    background-image: url("https://www.atsg.net/wp-content/uploads/slider/cache/201a097b2919253d2d56b29298917330/ATSG-DaaS-Gartner-Magic-Quadrant-BG.jpg");
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+   
+    
+}
+
+main {
+    padding: 5 0px;
+}
+.timeline {
+
+    position: relative;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+ 
+
+.timeline::after {
+
+    content: '';
+
+    position: absolute;
+
+    width: 6px;
+
+    background-color: #d6fcff;
+
+    border: 2px outset #00b7ff;
+
+    top: 0;
+
+    bottom: 0;
+
+    left: 50%;
+
+    margin-left: -3px;
+
+}
+
+ 
+
+.containerr {
+
+    padding: 10px 5%;
+
+    position: relative;
+
+    background-color: inherit;
+
+    width: 40%;
+
+}
+
+ 
+
+.containerr::after {
+
+    content: '';
+
+    position: absolute;
+
+    width: 25px;
+
+    height: 25px;
+
+    right: -17px;
+
+    background: url(https://i.imgur.com/RO0seBO.gif);
+
+    background-position: -70px -40px;
+
+    border: 4px inset #00daff;
+
+    top: 15px;
+
+    z-index: 1;
+
+}
+
+ 
+
+.right {
+
+    left: 50%;
+
+}
+
+ 
+
+.left::before {
+
+    content: " ";
+
+    height: 0;
+
+    position: absolute;
+
+    top: 22px;
+
+    width: 0;
+
+    z-index: 1;
+
+    left: 90%;
+
+    border: medium solid #00b7ff;
+
+    border-width: 10px 0 10px 10px;
+
+    border-color: transparent transparent transparent #00b7ff;
+
+}
+
+ 
+
+.right::before {
+
+    content: "   ";
+
+    height: 0;
+
+    position: absolute;
+
+    top: 22px;
+
+    width: 0;
+
+    z-index: 1;
+
+    right: 90%;
+
+    border: medium solid #00b7ff;
+
+    border-width: 10px 10px 10px 0;
+
+    border-color: transparent #00b7ff transparent transparent;
+
+}
+
+ 
+
+.right::after {
+
+    left: -16px;
+
+}
+
+ 
+
+.content {
+
+    padding: 10px 20px;
+
+    background-color: #00daff;
+
+    position: relative;
+
+    border: outset 2px #00b7ff;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    overflow: scroll;
+    color: rgb(255, 255, 255);
+    background-image: url(https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+   
+    
+}
+
+main {
+    padding: 50px;
+}
+
+
+   
+
+nav {
+
+    float: right;
+    
+    bottom: 10px;
+    
+    margin-right: 35px;
+    
+    margin-top: 10px;
+    
+    line-height: 40px;
+    
+    
+    
+    border-radius: 10px;
+    
+    padding: 10px;
+    
+    
+    }
+    
+    
+    
+    nav ul {
+    
+    list-style-type: none;
+    
+    }
+    
+    
+    
+    nav ul li {
+    
+    margin-bottom: 10px;
+    
+    }
+    
+    
+    
+    nav a {
+    
+    text-decoration: none;
+    
+    color: #ffffff;
+    
+    line-height: 100px;
+    
+    }
+    li {
+    
+     
+    
+      border-color: white;
+      
+      border-style: solid;
+      
+      border-radius: 10px;
+      
+      text-align: center;
+       }
+
+       
